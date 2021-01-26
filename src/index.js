@@ -20,5 +20,5 @@ module.exports = function toReadable (number) {
   } else {
     res.push(arrBeg[number%100 - 1])
   }
-  return res.join('')
+  return res.join('').trim()
 }
